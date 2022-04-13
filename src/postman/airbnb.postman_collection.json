@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "d675efe8-acb2-4cf7-a0e8-d88fa999a00f",
+		"name": "airbnb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AllProperties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/all-properties",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"all-properties"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TypesProperty",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/types",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"types"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/airbnb/reviews",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"airbnb",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Beds",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
